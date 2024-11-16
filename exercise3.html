@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION BAR </title>
+    <style>
+      :root{
+        --color: rgb(18, 109, 129);
+        --seccolor:rgb(34, 95, 208);
+        --defpadding:20px;
+        --background: rgb(27, 42, 71);
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .backdrop{
+        background-color: var(--background);
+      }
+      .nav{
+        background-color: var(--color);
+        border-radius: 50px;
+        border: 2px solid;
+      }
+      ul{
+        display: flex;
+        font-family: 'Courier New', Courier, monospace;
+        /* padding: var(--defpadding); */
+      }
+
+      li{
+        padding: var(--defpadding);
+      }
+      ul li{
+        list-style: none;
+      }
+      .home{
+        border: 1px dotted var(--background);
+        border-radius: 34px;
+        
+      }
+
+
+
+
+    </style>
+</head>
+<body class="backdrop">
+    <div class="nav">
+        <ul>
+            <li class="home">HOME</li>
+            <li class="home">ABOUT</li>
+            <li class="home">CONTACT US</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOREON CSS SELECTORS</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: yellow;
+        } */
+/* 
+        .boxes *{
+                     color: blue;
+                     border: 2px solid black ;
+        }
+        [data-color="primary"]{
+            /* padding-top: 45px; */
+            /* margin-top: 43px; */
+        /* } */
+
+                 /* .box:nth-child(odd){
+                            background-color: blue;
+                 }   */
+
+                 .boxes::before{
+                    content: "hardik is good ";
+                 }
+
+                 .boxes::after{
+                    content: "also is best bf she could have  ";
+                 }
+
+                 ::selection{
+                    background-color: black;
+                    color: aqua;
+                    
+                 }
+          .box::first-letter{
+            color: peru;
+            font-size: 34px;
+        }
+
+        input::placeholder{
+            color: blue;
+            font-size: 23px;
+        }
+
+
+
+                   </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box" data-color="primary">lorem234</div>
+        <div class="box">HI I AM A BOX</div>
+        <div class="box">HI I AM A BOX</div>
+        <input type="text" placeholder="Type your name in the box ">
+    </div>
+</body>
+</html>

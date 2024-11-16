@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascade</title>
+    <style>
+        h1 {
+            color: aqua;
+
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .cred {
+            color: red;
+        }
+
+        .cpurple {
+            color: purple;
+        }
+
+        /* inline style > id slector > class or attribute selector > element selector > universal selector 
+                              advised to use universal selector or classes more for overriding content 
+ */
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="yellow cred cpurple">CSS Specificity</h1>
+    </div>
+
+</body>
+
+</html>

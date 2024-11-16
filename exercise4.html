@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=quaerat, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <style>
+        :root {
+            --borderadius: 10px;
+            --border: 2px solid black;
+            --bgcolor: rgba(6, 218, 222, 0.89);
+            --margin: 100px;
+            --textalign: center;
+            --padding: 23px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navb {
+            display: block;
+            overflow: hidden;
+            background-color: aqua;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border: 2px;
+            border-radius: 5px;
+        }
+
+        .nav {
+
+            float: left;
+        }
+
+        .background {
+            background-color: rgb(56, 188, 104);
+        }
+
+        li {
+            padding: 20px;
+            /* border: 1px solid black;  */
+            float: left;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .about {
+            display: flow-root;
+            float: right;
+        }
+
+        .box1 {
+            border: var(--border);
+            border-radius: var(--borderadius);
+            margin: var(--margin);
+            height: 430px;
+            width: 430px;
+            float: left;
+            text-align: var(--textalign);
+            padding-top: var(--padding);
+            background-color: var(--bgcolor);
+        }
+
+        .box2 {
+            border: var(--border);
+            border-radius: var(--borderadius);
+            margin: var(--margin);
+            height: 430px;
+            width: 430px;
+            float: right;
+            text-align: var(--textalign);
+            padding-top: var(--padding);
+            background-color: var(--bgcolor);
+
+        }
+
+        .box3 {
+            margin: 23px;
+            width: auto;
+            height: 250px;
+            float:inline-start;
+            border: 2px solid black;
+            text-align: var(--textalign);
+            padding-top: var(--padding);
+            border-radius: var(--borderadius);
+            
+        }
+        .circle{
+            /* height: 50px;
+            width:  50px;
+            border: 2px solid black ;
+            border-radius: 50%; */
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #152334; /* Tomato color */
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body class="background">
+    <div class="main">
+
+        <div class="navb">
+            <ul class="nav">
+                <li>HOME</li>
+                <li>CONTACT US</li>
+                <li>NEWS</li>
+                <li class="about">ABOUT</li>
+
+            </ul>
+        </div>
+    </div>
+   
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur doloremque odio
+        accusantium quaerat illo expedita magnam, sed inventore ut repellendus nesciunt consequuntur animi maiores quis
+        aperiam rem, sit est?</div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ratione autem velit sit
+        veritatis omnis similique, pariatur neque mollitia. Natus rem magni similique cumque adipisci perferendis dolore
+        consequatur quibusdam officiis.
+    </div> <br> <br> <br> <br> <br> <br><br><br>
+
+    <div class="box3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, enim blanditiis. Corrupti, magni corporis
+            quibusdam quasi veniam aut laboriosam repellendus eius labore necessitatibus, nostrum quo sapiente commodi
+            ab laborum! Ab eum natus nihil sunt quas! Quo natus, qui deleniti sed atque, aperiam in reiciendis facere
+            porro assumenda consectetur soluta molestiae repellat nulla esse illo architecto ducimus fuga nihil
+            asperiores recusandae ullam. Voluptate ad assumenda corrupti inventore consequuntur hic possimus nam, iure
+            enim dolore obcaecati voluptas sed deleniti, voluptatibus provident tempora. Exercitationem incidunt
+            nesciunt porro id? Atque repellendus, fugit facilis aspernatur non placeat obcaecati iusto earum unde!
+            Laudantium minus provident tempore.</p>
+    </div>
+
+    <span class="circle"></span>
+
+</body>
+
+</html>
